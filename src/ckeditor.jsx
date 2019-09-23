@@ -22,7 +22,7 @@ class CKEditor extends React.Component {
 	}
 
 	componentWillUnmount() {
-		this._destroyEditor();
+		//this._destroyEditor();
 	}
 
 	componentDidUpdate( prevProps ) {
